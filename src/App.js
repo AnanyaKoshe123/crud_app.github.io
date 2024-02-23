@@ -12,8 +12,6 @@ function App() {
       
       <Routes>
       <Route path='/' element={<Read/>}></Route>
-      <Route path='/login' element={<Login/>}></Route>
-
       <Route path='/create' element={<Create/>}></Route>
       <Route path='/Edit' element={<Edit/>}></Route>
       <Route path='/delete' element={<Delete/>}></Route>
